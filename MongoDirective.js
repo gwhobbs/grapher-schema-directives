@@ -1,4 +1,4 @@
-import { SchemaDirectiveVisitor } from '@graphql-tools/utils';
+import { SchemaDirectiveVisitor } from 'graphql-tools';
 import { Mongo } from 'meteor/mongo';
 
 export default class MongoDirective extends SchemaDirectiveVisitor {
